@@ -2,9 +2,9 @@ import Star from '../assets/star.svg';
 
 const BnbCard = () => {
   return (
-    <div className="w-70 h-80 rounded-2xl flex flex-col space-y-2 shadow-2xl aspect-auto">
+    <div className="w-70 h-80 rounded-2xl flex flex-col space-y-2 shadow-2xl aspect-auto hover:scale-105 transition-transform duration-300">
       <img
-        className="w-full h-2/4 rounded-t-2xl object-cover"
+        className="w-full h-2/4 rounded-t-2xl object-cover "
         src="https://l.icdbcdn.com/oh/60907f50-c4d6-4044-9422-b536a7fdabfa.jpg"
         alt=""
       />
